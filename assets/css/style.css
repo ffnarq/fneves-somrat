@@ -502,7 +502,7 @@ input:checked+label span:last-child {
 }
 
 .name {
-  text-align: left; /*fabio*/
+  text-align: right; /*fabio*/
 }
 
 .first-name {
