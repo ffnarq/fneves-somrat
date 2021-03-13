@@ -242,7 +242,7 @@ z-index: 9;
 .botao-prev-fabio{
   position: relative;
   z-index: 109;
-  height: 100vh;
+  height: 97vh;
   width: 140px;
   border-radius: 50%;
   /*background-color: #222;*/
@@ -253,7 +253,7 @@ z-index: 9;
   overflow: hidden;
   top: 0px;
   z-index: 109;
-  height: 100vh;
+  height: 97vh;
   width: 140px;
   border-radius: 50%;
   text-align: center;
