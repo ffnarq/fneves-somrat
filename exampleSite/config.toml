@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 baseURL = "https://examplesite.com"
 title = "Fábio Ferreira Neves | Architect"
-theme = "somrat"
+theme = "fneves-somrat"
 # post pagination
 paginate = "2"
 # post excerpt

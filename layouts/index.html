@@ -11,7 +11,7 @@
   <div class="slider-prev-button slider-button">
     <i class="fa fa-angle-left"></i>
   </div>
-  <div class="botao-next-fabio"></div>
+<div class="botao-next-fabio"></div>
   <div class="slider-next-button slider-button">
     <i class="fa fa-angle-right"></i>
   </div>
@@ -68,7 +68,7 @@
             </div>
             <div class="fulscreen-nav">
               <ul class="list-inline fullscreen-nav-holder">
-			  A TUA MAE
+				{{ with .Params.email }} {{ . }} {{ end }}
                 {{ range site.Menus.main }}
                 
                 <li><a class="text-uppercase"

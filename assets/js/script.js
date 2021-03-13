@@ -133,7 +133,7 @@
 	$('.slider-next-button').on("click", function () {
 		backgroundSlide.trigger('next.owl.carousel');
 	});
-	$('.slider-next-fabio').on("click", function () {/*fabio*/
+	$('.botao-next-fabio').on("click", function () {/*fabio*/
 		backgroundSlide.trigger('next.owl.carousel');
 	});
 	// Setting Up Background Images
