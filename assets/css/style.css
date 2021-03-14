@@ -233,11 +233,12 @@ body {
   filter: brightness(0) saturate(100%) invert(49%) sepia(0%) saturate(1471%) hue-rotate(153deg) brightness(89%) contrast(98%);
 }
 
-/*fabio button logo
+
+/*fabio button logo*/
 .img-fluid { 
-z-index: 9;
+filter: none;
 }
-*/
+
 
 /*fabio*/
 .botao-prev-fabio{
@@ -248,6 +249,7 @@ z-index: 9;
   border-radius: 50%;
   /*background-color: #222;*/
   left: -70px;
+  cursor: pointer;
 }
 .botao-next-fabio{
   position: absolute;
@@ -259,6 +261,7 @@ z-index: 9;
   text-align: center;
   /*background-color: #999;*/
   right: -70px;
+  cursor: pointer;
 }
 /*fabio*/
 
@@ -502,20 +505,29 @@ input:checked+label span:last-child {
 }
 
 .name {
-  text-align: right; /*fabio*/
+  text-align: left; /*fabio*/
+  position: relative; /*fabio*/
+  left: 20px; 
 }
 
 .first-name {
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 400;
   padding-bottom: 20px;
+  font-family: "Verdana";
 }
 
 .last-name {
-  font-size: 100px;
-  font-weight: 600;
+  font-size: 30px; /*fabio*/
+  font-weight: 400; /*fabio*/
   line-height: 1;
   margin-bottom: 42px;
+}
+
+.email {/*fabio*/
+  font-size: 30px;
+  font-weight: 400;
+  padding-bottom: 20px;
 }
 
 .occupation {

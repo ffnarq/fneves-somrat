@@ -1,8 +1,8 @@
 ---
 title : "I'm Fábio Ferreira Neves"
 # full screen navigation
-first_name : "Zurich.Lisbon"
-last_name : "Architect"
+first_name : "architect"
+last_name : "zürich . lisbon"
 email : "info@ferreiraneves.ch"
 #bg_image : "images/backgrounds/full-nav-bg_fabio.jpg"
 # animated text loop

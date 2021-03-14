@@ -5,7 +5,7 @@
 <style>{{.Params.custom_css | safeCSS}}</style>
 <section class="header {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} id="home">
   <div class="logo">
-    <img class="img-fluid" src="{{ site.Params.logo_light | relURL }}" alt="{{ site.Title }}">
+    <img id="my_logo" class="img-fluid" style="cursor: pointer;" src="{{ site.Params.logo_light | relURL }}" alt="{{ site.Title }}">
   </div>
 <div class="botao-prev-fabio"></div>
 <div class="botao-next-fabio"></div>
@@ -18,7 +18,7 @@
   </div>
   <div class="owl-carousel owl-full-width owl-theme" id="background-slide">
     {{ range .Params.slider_images }}
-    <div class="slider"><img class="img-fluid" src="{{ . | absURL }}" alt="slider-background"></div>
+    <div class="slider"><img class="img-fluid" style="cursor: pointer;" src="{{ . | absURL }}" alt="slider-background"></div>
     {{ end }}
   </div>
   <div class="container">
@@ -55,19 +55,20 @@
     </label>
   </div>
   <div class="fullscreen-nav-container" style="background-image: url('{{ .Params.bg_image | absURL }}');">
-    <div class="logo">
+    <!--<div class="logo">
     <img class="img-fluid-dark" src="{{ site.Params.logo_dark | relURL }}" alt="{{ site.Title }}">
-  </div>
+  </div>-->
     <div class="container-fluid">
       <div class="full-nav-container row">
         <div class="full-nav-holder">
           <div class="full-nav-content">
             <div class="name">
               {{ with .Params.first_name }}<div class="first-name">{{ . }}</div>{{ end }}
-              {{ with .Params.last_name }}<div class="last-name">{{ . }}</div>{{ end }}
+              {{ with .Params.last_name }}<div class="first-name">{{ . }}</div>{{ end }}
+			  {{ with .Params.email }}<div class="email"><a style="color: inherit;" href="mailto:{{ . }}">{{ . }}</a></div>{{ end }}
             </div>
             <div class="fulscreen-nav">
-              <ul class="list-inline fullscreen-nav-holder">
+             <!-- <ul class="list-inline fullscreen-nav-holder">
 				{{ with .Params.email }} {{ . }} {{ end }}
                 {{ range site.Menus.main }}
                 
@@ -75,14 +76,14 @@
                     href="{{if .Pre}}{{site.BaseURL | absLangURL}}{{.Pre}}{{ .URL }}{{else}}{{.URL | absLangURL}}{{end}}">{{ .Name }}</a>
                 </li>
                 {{ end }}
-              </ul>
+              </ul> -->
             </div>
             <div class="full-nav-icon-holder">
-              <ul class="full-nav-icons list-inline">
+             <!-- <ul class="full-nav-icons list-inline">
                 {{ range site.Params.social }}
-                <li><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
+                <li><a href="{{ .link | safeURL }}"><img src="{{ .icon }}" width="69" height="114"></i></a></li>
                 {{ end }}
-              </ul>
+              </ul> -->
             </div>
           </div>
         </div>

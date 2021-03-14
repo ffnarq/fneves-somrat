@@ -1,5 +1,6 @@
 (function ($) {
 	'use strict';
+	
 
 	/*--------------------------------
 	 Start Preloader Animation
@@ -155,18 +156,25 @@
 	SliderBackground();
 	// Toggle Fullscreen Navigation
 
+	//inicializar img-fluid, remover / apra comparacao abaixo 
+	$("#my_logo").attr("src","images/FFN_logo_white.png");
+	
 	$('#burger').on("click", function () {
-		$(".fullscreen-nav-container").slideToggle(300);
+		$(".fullscreen-nav-container").slideToggle(0.1);
 	}); 
 	$('.img-fluid').on("click",function () {
-        $(".fullscreen-nav-container").slideToggle(300);
+		if($("#my_logo").attr('src') === "images/FFN_logo_white.png"){
+			$("#my_logo").attr("src","images/FFN_logo_grey.png");
+		}
+		else{
+			$("#my_logo").attr("src","images/FFN_logo_white.png");
+		}
+        $(".fullscreen-nav-container").slideToggle(0.1);
     });
 	/*$(".fullscreen-nav-holder a, .turn-home").on("click", function () {
 		$("#burger").trigger("click");
 	});*/
-	$(".img-fluid-dark").on("click", function () {
-		$("#burger").trigger("click");
-	});
+
 	/*--------------------------------
 		 End Header
 	----------------------------------*/

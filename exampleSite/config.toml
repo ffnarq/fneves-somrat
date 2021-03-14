@@ -64,7 +64,7 @@ link = "plugins/owl-carousel/owl.carousel.min.js"
 [params]
 favicon = "images/favicon.png"
 logo_light = "images/FFN_logo_white.png"
-logo_dark = "images/FFN_logo_black2.png"
+logo_dark = "images/FFN_logo_white.png"
 logo_width = "150px"
 # Meta data
 description = "Portfolio of Fábio Ferreira Neves"
@@ -77,24 +77,24 @@ preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
   
 ############################# social site ########################
 [[params.social]]
-icon = "fab fa-facebook-f"
-link = "https://www.facebook.com/somratpro"
+icon = "images/premio_a+awards.png"
+link = "https://architizer.com/projects/patio-do-meco-1/"
 
 [[params.social]]
-icon = "fab fa-twitter"
-link = "https://twitter.com/somratpro"
+icon = "images/premio_best_arch.png"
+link = "https://bestarchitects.de/en/2020/all/all/all/all/7-Fabio-Ferreira-Neves-Patio-do-Meco.html"
 
 [[params.social]]
-icon = "fab fa-instagram"
-link = "https://www.instagram.com/somratpro"
+icon = "images/premio_masterprize.png"
+link = "https://architectureprize.com/winners/winner.php?id=3697"
 
 #[[params.social]]
 #icon = "fab fa-github"
 #link = "https://github.com/bunnis24"
 
-[[params.social]]
-icon = "fab fa-linkedin"
-link = "https://www.linkedin.com/in/f%C3%A1bio-neves-1a943851"
+#[[params.social]]
+#icon = "fab fa-linkedin"
+#link = "https://www.linkedin.com/in/f%C3%A1bio-neves-1a943851"
 
 
 ################################### English language #####################################
