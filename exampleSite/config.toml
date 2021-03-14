@@ -63,7 +63,7 @@ link = "plugins/owl-carousel/owl.carousel.min.js"
 #################### default parameters ################################
 [params]
 favicon = "images/favicon.png"
-logo_light = "images/FFN_logo_black2.png"
+logo_light = "images/FFN_logo_white.png"
 logo_dark = "images/FFN_logo_black2.png"
 logo_width = "150px"
 # Meta data

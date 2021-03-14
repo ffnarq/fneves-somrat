@@ -178,8 +178,8 @@ body {
 .logo {
   position: absolute;
   z-index: 10;
-  top: 2px;
-  left: 70px; /*fabio*/
+  top: 20px;
+  left: 20px; /*fabio*/
 }
 
 .no-js .logo {
