@@ -4,6 +4,7 @@ title : "I'm Fábio Ferreira Neves"
 first_name : "architect"
 last_name : "zürich . lisboa"
 email : "info@ferreiraneves.ch"
+FABIO FERREIRA NEVES IS AN ARCHITECT
 #bg_image : "images/backgrounds/full-nav-bg_fabio.jpg"
 # animated text loop
 occupations:
