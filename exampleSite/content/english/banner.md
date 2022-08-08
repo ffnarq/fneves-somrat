@@ -25,7 +25,6 @@ slider_images:
 - "images/slider/slider-10.jpg"
 - "images/slider/slider-11.jpg"
 
-
 # button
 button:
   enable : true
