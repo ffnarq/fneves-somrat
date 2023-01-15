@@ -17,14 +17,6 @@ slider_images:
 - "images/slider/slider-2.jpg"
 - "images/slider/slider-3.jpg"
 - "images/slider/slider-4.jpg"
-- "images/slider/slider-05.jpg"
-- "images/slider/slider-06.jpg"
-- "images/slider/slider-07.jpg"
-- "images/slider/slider-08.jpg"
-- "images/slider/slider-09.jpg"
-- "images/slider/slider-010.jpg"
-- "images/slider/slider-011.jpg"
-- "images/slider/slider-012.jpg"
 
 
 # button
