@@ -24,6 +24,7 @@ slider_images:
 - "images/slider/slider-9.jpg"
 - "images/slider/slider-10.jpg"
 - "images/slider/slider-11.jpg"
+- "images/slider/slider-12.jpg"
 
 
 # button
